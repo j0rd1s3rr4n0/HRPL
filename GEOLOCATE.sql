@@ -78,10 +78,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `username`, `password`, `timestamp_last_login`) VALUES
-(1, 'PARTHENOUN', 'PARTHENOUN', NULL),
-(2, 'MIVE', 'CONTRASEÑASEGURA', NULL),
-(3, 'AARON', 'AARON', NULL),
-(5, 'DANIIEELGS', 'CONTRASEÑASEGURA', NULL);
+(1, 'ROOT', 'TOOR', NULL)
 
 --
 -- Restricciones para tablas volcadas
