@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         // Configuración de la base de datos MySQL
-        require('environtment_loader.php');
+        require('environment_loader.php');
 
         // Crear una conexión a la base de datos
         $conn = new mysqli($servername, $db_username, $db_password, $database);

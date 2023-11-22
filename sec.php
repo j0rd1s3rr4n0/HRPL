@@ -156,7 +156,7 @@
     </tr>
     <?php
     
-    require('environtment_loader.php');
+    require('environment_loader.php');
     
     
     $mysqli = new mysqli($servername, $db_username, $db_password, $database);

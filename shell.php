@@ -1,6 +1,6 @@
 <?php
 // Conexin a la base de datos
-require('environtment_loader.php');
+require('environment_loader.php');
 $mysqli = new mysqli($servername, $db_username, $db_password, $database);
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);

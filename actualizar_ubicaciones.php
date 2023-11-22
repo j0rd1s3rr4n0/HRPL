@@ -4,7 +4,7 @@ error_reporting(0);
 
 if($db_type=="mysql"){
     // Configuración de la base de datos MySQL
-    require('environtment_loader.php');
+    require('environment_loader.php');
 
     // Crear una conexión a la base de datos MySQL
     $conn = new mysqli($servername, $db_username, $db_password, $database);
