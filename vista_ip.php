@@ -45,6 +45,7 @@ if (isset($_POST['selected_ip'])) {
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" type="image/png" href="/img/logo.png">
     <title>Historial de Ubicaciones por IP</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>

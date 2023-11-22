@@ -10,6 +10,7 @@ if(isset($_GET['q'])){
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/img/logo.png">
     <title><?php echo $ccc;?></title>
     <style>
         body {

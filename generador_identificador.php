@@ -69,6 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <title>Generador de Identificador</title>
+    <link rel="icon" type="image/png" href="/img/logo.png">
 </head>
 <style>
 	@import url(https://fonts.googleapis.com/css?family=Major%20Mono%20Display);
@@ -79,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 <nav class="navbar">
         <ul class="nav-list">
-        	<!--<li><img class="logo" src="img/geologo.png"></li>-->
+        	<!--<li><img class="logo" src="img/logo.png"></li>-->
             <li><h3 class="logo">GeoSpy</h3></li>
             <li><a href="generador_identificador.php">Generador de Identificador</a></li>
             <li><a href="vista.php">Vista GEO</a></li>

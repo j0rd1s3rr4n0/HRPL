@@ -20,6 +20,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <title>Ubicaciones en el Mapa</title>
+    <link rel="icon" type="image/png" href="/img/logo.png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
         * {
@@ -35,7 +36,7 @@ if (!isset($_SESSION['username'])) {
 <body>
     <nav class="navbar">
         <ul class="nav-list">
-            <!--<li><img class="logo" src="img/geologo.png"></li>-->
+            <!--<li><img class="logo" src="img/logo.png"></li>-->
             <li><h3 class="logo">GeoSpy</h3></li>
             <li><a href="generador_identificador.php">Generador de Identificador</a></li>
             <li><a href="vista.php">Vista GEO</a></li>

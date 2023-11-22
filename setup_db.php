@@ -1,3 +1,4 @@
+<link rel="icon" type="image/png" href="/img/logo.png">
 <?php
 require('environment_loader.php');
 
