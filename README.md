@@ -1,4 +1,5 @@
-# GeoSpy
+# HRPL - High-precision Real-time People Locator
+![HRPL LOGO](/img/logo.png)
 
 GeoSpy is a high-precision, real-time people locator tool that operates through a generated link. It is developed for educational purposes to demonstrate the potential risks associated with location-sharing technologies. This project is not intended for malicious use, and the creator does not assume any responsibility for its misuse.
 
@@ -16,15 +17,62 @@ GeoSpy provides a glimpse into the potential vulnerabilities associated with loc
 - Real-time updates via generated links
 - Educational tool for understanding privacy risks
 
-## Getting Started
+## Getting Started with GeoSpy
 
-To use GeoSpy, follow these steps:
+1. **Clone the Repository:**
 
-1. Clone the repository.
-2. Install the necessary dependencies.
-3. Run the application.
+    ```bash
+    git clone https://github.com/j0rd1s3rr4n0/HRPL
+    ```
+
+2. **Prerequisites:**
+    - Web server (XAMPP, WAMP, Apache 2.4, Nginx)
+    - Database system (MySQL, MariaDB, SQLite3, PostgreSQL)
+    - PHP (recommended version 8.0 or higher)
+
+3. **Configure Environment Variables:**
+
+    - Clone `.env.example` and rename it to `.env`.
+    - Update the values inside `.env` with your specific configuration, removing any comments marked with `#`.
+
+4. **Move Files to Web Server Public Folder:**
+
+    Move all files from the cloned repository to the public folder of your web server.
+
+5. **Secure the Environment Variables:**
+
+    Create an `.htaccess` file to secure the `.env` file and prevent unauthorized access.
+
+6. **Run the Web Server:**
+
+    Start your web server to host the GeoSpy application.
+
+7. **Access Setup Script:**
+
+    Visit the following URL to run the setup script for the database:
+    
+    `https://yourservername/setup_db.php` or [https://localhost/setup_db.php](https://localhost/setup_db.php)
+
+8. **Configure Database:**
+
+    Follow the instructions on the setup script to configure the database connection. GeoSpy supports MySQL, MariaDB, SQLite3, and PostgreSQL.
+
+9. **Access GeoSpy Login:**
+
+    Navigate to the login page at:
+        `https://yourservername/login.php` or [https://localhost/login.php](https://localhost/login.php)
+
+    **Default Login Credentials:**
+    - **Username:** `ROOT`
+    - **Password:** `TOOR`
+
+10. **Share GeoSpy:**
+
+    Share the link to your GeoSpy application with others:
+    `https://yourservername` or [https://localhost](https://localhost)
 
 **Note: Ensure that you have the legal right to track the location of individuals and comply with relevant privacy laws and regulations. Misuse of this tool may result in legal consequences.**
+
 
 ## Legal Considerations
 
