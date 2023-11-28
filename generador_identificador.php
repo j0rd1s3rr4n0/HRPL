@@ -12,7 +12,8 @@ if (!isset($_SESSION['username'])) {
 <p>The requested URL was not found on this server.</p>
 </body></html>
 <?php
-}else{
+die();}
+else{
 // Verificar si el formulario ha sido enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Obtener los datos del formulario
@@ -111,120 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <a href="cerrar_sesion.php">Cerrar Sesión</a>
 </body>
 <style>
-    *{
-        padding: 0;
-        margin: 0;
-        border: 0;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #33394a;
-        margin: 0;
-        padding: 0;
-    }
-
-    h1 {
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-    }
-
-    h2 {
-        color: #fff;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    form {
-        max-width: 400px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    label {
-        display: block;
-        margin-bottom: 10px;
-        color: #333;
-    }
-
-    input[type="text"] {
-        width: 95%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-
-    button {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        background-color: #191d20;
-        color: #fff;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #606d7a;
-    }
-
-    a {
-        display: block;
-        margin: 20px auto;
-        text-align: center;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration:wavy;
-        color:#fff;
-        text-shadow: #fff 0.1pt 0.1pt;
-    }
-
-
-
-
-/* Estilos del navbar */
-.navbar {
-    background-color: #191d20;
-    color: #fff;
-    padding: 10px 0;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-list li {
-    margin: 0 10px;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-}
-
-.nav-list a:hover {
-    color: #f0f0f0;
-}
-.logo{
-    height: 20pt;
-    filter: brightness(12.5);
-    margin-top: 10pt;
-}
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
+   *{ padding: 0; margin: 0; border: 0; } body { font-family: Arial, sans-serif; background-color: #33394a; margin: 0; padding: 0; } h1 { color: #fff; text-align: center; padding: 20px; } h2 { color: #fff; text-align: center; margin-top: 20px; } form { max-width: 400px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } label { display: block; margin-bottom: 10px; color: #333; } input[type="text"] { width: 95%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 3px; } button { display: block; width: 100%; padding: 10px; background-color: #191d20; color: #fff; border: none; border-radius: 3px; cursor: pointer; } button:hover { background-color: #606d7a; } a { display: block; margin: 20px auto; text-align: center; color: #fff; text-decoration: none; } a:hover { text-decoration:wavy; color:#fff; text-shadow: #fff 0.1pt 0.1pt; } /* Estilos del navbar */ .navbar { background-color: #191d20; color: #fff; padding: 10px 0; } .nav-list { list-style: none; padding: 0; display: flex; justify-content: space-around; } .nav-list li { margin: 0 10px; } .nav-list a { text-decoration: none; color: #fff; transition: color 0.3s; } .nav-list a:hover { color: #f0f0f0; } .logo{ height: 20pt; filter: brightness(12.5); margin-top: 10pt; } *{ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-transform: uppercase;
 }
 </style>
 
